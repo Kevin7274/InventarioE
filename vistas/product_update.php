@@ -58,7 +58,7 @@
 		  	<div class="column">
 				<label>Edificio</label><br>
 		    	<div class="select is-rounded">
-				  	<select name="producto_categoria" >
+				  	<select name="producto_categoria" > 
 				    	<?php
     						$categorias=conexion();
     						$categorias=$categorias->query("SELECT * FROM categoria");
